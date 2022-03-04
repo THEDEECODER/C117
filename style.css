@@ -28,3 +28,31 @@ body{
 #lbl5{
     color: #FF4D6D;
 }
+#button1{
+    float: right;
+}
+body{
+    background-color: midnightblue;
+}
+h1{
+    color: red;
+    background-color: aqua;
+}
+p{
+    font-size: 20px;
+    color: cyan;
+    font-weight: bold;
+    padding-top: 5px ;
+}
+canvas{
+    margin-top: 50px;
+    border-radius: 20px;
+    border: 5px solid white;
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+@keyframes example{
+    from{box-shadow: 1px 1px 38px #48CAE4;}
+    to{box-shadow: 1px 1px 38px #005F73;}
+}

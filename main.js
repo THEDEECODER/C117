@@ -9,3 +9,6 @@ function preload(){
 function draw(){
 
 }
+function ClearCanvas(){
+    background("red");
+}
